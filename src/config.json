@@ -20,7 +20,7 @@
         "mode": "auto",
         "1gb-pages": false,
         "rdmsr": true,
-        "wrmsr": true,
+        "wrmsr": "-a 0x1a4:0xf",
         "cache_qos": false,
         "numa": true,
         "scratchpad_prefetch_mode": 1
